@@ -1,0 +1,13 @@
+.header {
+    background-color: white;
+    height: 60px;
+    margin-top: 0;
+    border-bottom: 1px solid #000;
+    position: relative;
+    align-items: center;
+}
+.header__logo {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+}

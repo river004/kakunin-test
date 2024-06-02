@@ -1,0 +1,142 @@
+
+.header {
+    background-color: white;
+    height:  60px;
+    margin-top: 0;
+    border-bottom: 1px solid #000;
+}
+.header__logo {
+    text-align: center;
+    padding: 5px;
+}
+
+.header__logo-title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.form {
+    max-width: 800px;
+    align-items: center;
+}
+
+.form__group {
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__group-title {
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.form__label--required {
+    color: red;
+}
+
+.form__group--content {
+    width: 400px;
+    text-align: left;
+}
+
+.form__input--text {
+    display: flex;
+    justify-content: space-between;
+}
+.txt {
+    background-color: ghostwhite;
+    border: none;
+    height: 30px;
+    width: 180px;
+
+}
+
+.form__error-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form__error {
+    color: red;
+    text-align: left;
+}
+.form__input--gender {
+    padding: 5px;
+}
+
+.email {
+    background-color: ghostwhite;
+    border: none;
+    display: inline;
+    height: 30px;
+    width: 100%;
+}
+.form__input--tel {
+    display: flex;
+    justify-content: space-between;
+}
+.tel {
+    background-color: ghostwhite;
+    border: none;
+    height: 30px;
+    width: 100%;
+    background-color: ghostwhite;
+}
+.address {
+    background-color: ghostwhite;
+    border: none;
+    height: 30px;
+    width: 100%;
+}
+.building {
+    background-color: ghostwhite;
+    border: none;
+    height: 30px;
+    width: 100%;
+}
+.confirm {
+    padding-left: 10px;
+    background-color: ghostwhite;
+    border: none;
+    height: 35px;
+}
+
+.form__input--textarea {
+    display: flex;
+    justify-content: space-between;
+}
+.textarea {
+    background-color: ghostwhite;
+    border: none;
+    height: 90px;
+    width: 100%;
+}
+.form__group--textarea {
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.form__button {
+    margin-top: 40px;
+}
+.form__button-submit{
+    background-color: saddlebrown;
+    color: white;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    border: none;
+}
